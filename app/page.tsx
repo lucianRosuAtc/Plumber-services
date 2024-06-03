@@ -1,10 +1,10 @@
 import Image from "next/image";
-import ImageSlide from "../components/ImageSlide";
+import ImageSlider from "../components/ImageSlider";
 
 export default function Home() {
   return (
     <main>
-        <ImageSlide />
+        <ImageSlider />
     </main>
 
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
