@@ -2,7 +2,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { imageSliderData } from "./imageSlider-data";
+import { imageSliderData } from "./components-data/imageSlider-data";
 
 export default function Images() {
   const [selectedCard, setSelectedCard] = useState(imageSliderData[0].id);
