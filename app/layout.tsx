@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} max-w-[1920px] mx-auto`}>
         <ThemeProvider 
-        // attribute="class" defaultTheme="system"
+        attribute="class" defaultTheme="system"
         >
           <Header />
           {children}
