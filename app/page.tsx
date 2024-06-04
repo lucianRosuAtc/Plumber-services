@@ -1,11 +1,13 @@
 import Image from "next/image";
 import ImageSlider from "../components/ImageSlider";
+import TestimonialCarousel from "../components/TestimonialCarousel";
 
 
 export default function Home() {
   return (
     <main>
         <ImageSlider />
+        <TestimonialCarousel />
     </main>
 
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
