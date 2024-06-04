@@ -21,7 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} max-w-[1920px] mx-auto`}>
-        <ThemeProvider attribute="class" defaultTheme="system">
+        <ThemeProvider 
+        // attribute="class" defaultTheme="system"
+        >
           <Header />
           {children}
           <ScrollToTopButton />
