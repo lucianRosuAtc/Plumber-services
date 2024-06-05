@@ -12,7 +12,7 @@ export default function Images() {
   };
 
   return (
-    <div className="w-full h-screen flex  items-center justify-center">
+    <div className="w-full h-[550px] flex items-center justify-center bg-orange-200 my-6 md:my-12">
       <div className="h-[500px] md:h-96 flex md:flex-row flex-col flex-nowrap justify-start">
         {imageSliderData.map((data, index) => (
           <React.Fragment key={data.id}>
@@ -28,11 +28,11 @@ export default function Images() {
               htmlFor={data.id}
               className={`rounded-2xl ${
                 selectedCard === data.id
-                  ? "max-w-[300px] md:max-w-[400px] lg:max-w-[600px] h-96 "
+                  ? "max-w-[300px] md:max-w-[400px] lg:max-w-[600px] h-96"
                   : "max-w-[300px] md:max-w-[70px] h-[70px] md:h-96"
               } bg-cover cursor-pointer overflow-hidden flex md:items-end items-start transition-all duration-600 ease-in-out shadow-xl m-2`}
               onClick={() => handleCardClick(data.id)}
-              style={{ backgroundImage: `url('${data.image}')` }}
+              style={{ backgroundImage: `url('${data.image}')`}}
             >
               <div className="text-white flex flex-nowrap">
                 <div className="border border-orange-500 bg-gray-800 text-white rounded-full w-12 h-10 md:h-8 flex items-center justify-center m-1.5 md:my-auto md:m-5 ">
