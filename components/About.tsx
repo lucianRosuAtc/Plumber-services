@@ -1,54 +1,70 @@
 import React from "react";
 import ImageSlider from "../components/ImageSlider";
 import Image from "next/image";
+import { Bath, BookmarkCheck, Handshake, UserCheck } from "lucide-react";
 
 export default function About() {
   return (
-    <div className="m-4">
-      <h1 className="my-4 md:my-8 text-secondary dark:text-primary">About Me</h1>
-      <p className="">
-        Welcome to my plumbing and electrical services website! My name is Joe
-        Doe, and I am a professional with over 15 years of experience in both
-        plumbing and electrical work.
-         {/* My journey began with a passion for
-        solving complex issues and helping people maintain comfortable,
-        efficient homes. Over the years, I have honed my skills and expanded my
+    <div>
+      <section className="m-8">
+        <h1 className="text-center mb-4 mt-16 md:mb-12 md:mt-24 text-gray-800 dark:text-primary">
+          About Me
+        </h1>
+        <div className="flex flex-col lg:flex-row max-w-7xl items-center justify-center mx-auto">
+          <p className="mr-8 lg:text-3xl text-gray-700 dark:text-white my-8">
+            Welcome to my plumbing and electrical services website! My name is
+            Joe Doe, and I am a professional with over 15 years of experience in
+            both plumbing and electrical work.
+            {/* My journey began with a passion for
+         solving complex issues and helping people maintain comfortable,
+         efficient homes. Over the years, I have honed my skills and expanded my
         knowledge to provide top-notch solutions for a wide range of needs. */}
-      </p>
-      <Image
-        src="/images/plumber/plumber.webp"
-        width="600"
-        height="500"
-        alt="Plumber fixing a pipe"
-        className="w-full h-[500px] md:h-[800px] object-cover"
+          </p>
+          <Image
+            src="/images/plumber/plumber.webp"
+            width="300"
+            height="500"
+            alt="Plumber fixing a pipe"
+            className="w-[500px] h-[500px] object-cover rounded-lg shadow-xl border border-gray-300 dark:border-primary"
+          />
+        </div>
+      </section>
 
-/>
+      <section className=" flex flex-col bg-orange-100 dark:bg-accent w-full items-center justify-center ">
+        <div className=" max-w-7xl my-14 md:my-20">
+          <h2 className="text-center  my-4 md:my-12 text-gray-800 dark:text-primary">
+            Why Choose Me?
+          </h2>
+
+          <ul className="mb-12">
+            <li className="flex">
+              <UserCheck className="text-primary mr-2"/>
+              Expertise and Experience: With a solid background in both plumbing
+              and electrical work, I have handled everything from simple repairs
+              to extensive renovations. My experience ensures that I can quickly
+              diagnose and fix any issue you may have.
+            </li>
+            <li className="flex">
+              <Handshake className="text-primary mr-2"/> Professional and
+              Friendly Service: I believe in maintaining a friendly yet
+              professional relationship with my clients. I am committed to
+              providing excellent customer service and ensuring that you are
+              completely satisfied with my work.
+            </li>
+            <li className="flex">
+              <BookmarkCheck className="text-primary mr-2"/> Quality Workmanship: I take pride in my work and
+              strive for perfection in every job. Whether it&apos;s installing
+              new fixtures, repairing leaks, or conducting a complete system
+              overhaul, I ensure that every project is completed to the highest
+              standards.
+            </li>
+          </ul>
+        </div>
+      </section>
 
 
-
-
-
-      <p className="">Why Choose Me?</p>
-
+{/* 
       <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <li>
-          Expertise and Experience: With a solid background in both plumbing and
-          electrical work, I have handled everything from simple repairs to
-          extensive renovations. My experience ensures that I can quickly
-          diagnose and fix any issue you may have.
-        </li>
-        <li>
-          Professional and Friendly Service: I believe in maintaining a friendly
-          yet professional relationship with my clients. I am committed to
-          providing excellent customer service and ensuring that you are
-          completely satisfied with my work.
-        </li>
-        <li>
-          Quality Workmanship: I take pride in my work and strive for perfection
-          in every job. Whether it&apos;s installing new fixtures, repairing
-          leaks, or conducting a complete system overhaul, I ensure that every
-          project is completed to the highest standards.
-        </li>
         <li>
           Transparent Pricing: I provide clear and competitive quotes, so you
           know exactly what to expect. No hidden fees or surprise charges—just
@@ -60,41 +76,53 @@ export default function About() {
           quickly as possible without compromising on quality. Your time and
           convenience are important to me.
         </li>
-      </ul>
+      </ul> */}
 
-      <p className="">My Services Include:</p>
-      <h4>Plumbing Services</h4>
+
+
+
+<section className="mx-8">
+
+<h2 className="my-4 md:my-12 text-gray-800 dark:text-primary">My Services Include:</h2>
+
+
+      <h4 className="mb-4">Plumbing Services:</h4>
       <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <li>Bathroom & Kitchen Plumbing</li>
-        <li>Blocked Baths</li>
-        <li>Blocked Sinks</li>
-        <li>Blocked Toilets</li>
-        <li>Emergency Plumber Service</li>
-        <li>General Plumbing</li>
-        <li>Pipe Fitter</li>
-        <li>Plumbing Repairs</li>
-        <li>Power Flushing</li>
-        <li>Radiator Installation</li>
-        <li>Radiator Repair</li>
-        <li>Radiator Thermostat Valve Installation</li>
-        <li>Radiator Thermostat Valve Repair</li>
-        <li>Shower Installation</li>
-        <li>Shower Repair</li>
-        <li>Tap Repair</li>
-        <li>Thermal Dynamics</li>
-        <li>Underfloor Heating Installation</li>
-        <li>Underfloor Heating Repair</li>
-        <li>Unvented Hot Water Cylinder Installation</li>
-        <li>Unvented Hot Water Cylinder Servicing / Repair</li>
-        <li>Water Leak Detection</li>
-        <li>
+           <li className="flex"> <Bath className="text-primary mr-2"/>Bathroom & Kitchen Plumbing</li>
+           <li className="flex">Blocked Baths</li>
+           <li className="flex">Blocked Sinks</li>
+           <li className="flex">Blocked Toilets</li>
+           <li className="flex">Emergency Plumber Service</li>
+           <li className="flex">General Plumbing</li>
+           <li className="flex">Pipe Fitter</li>
+           <li className="flex">Plumbing Repairs</li>
+           <li className="flex">Power Flushing</li>
+           <li className="flex">Radiator Installation</li>
+           <li className="flex">Radiator Repair</li>
+           <li className="flex">Radiator Thermostat Valve Installation</li>
+           <li className="flex">Radiator Thermostat Valve Repair</li>
+           <li className="flex">Shower Installation</li>
+           <li className="flex">Shower Repair</li>
+           <li className="flex">Tap Repair</li>
+           <li className="flex">Thermal Dynamics</li>
+           <li className="flex">Underfloor Heating Installation</li>
+           <li className="flex">Underfloor Heating Repair</li>
+           <li className="flex">Unvented Hot Water Cylinder Installation</li>
+           <li className="flex">Unvented Hot Water Cylinder Servicing / Repair</li>
+           <li className="flex">Water Leak Detection</li>
+           <li className="flex">
           Water Mains Specialist (Pipe Replacement, Moling, and Lead Pipes)
         </li>
-        <li>Water Pumps Installation</li>
-        <li>Water Pumps Repair</li>
-        <li>Water Supply Pipe Repairs</li>
+           <li className="flex">Water Pumps Installation</li>
+           <li className="flex">Water Pumps Repair</li>
+           <li className="flex">Water Supply Pipe Repairs</li>
       </ul>
+</section>
+
       <ImageSlider />
+
+      <section className="">
+
       <h4>Electrical Services</h4>
       <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <li>Electric Boiler Installation</li>
@@ -131,6 +159,7 @@ export default function About() {
         <li>Smoke Alarms</li>
         <li>Storage Heating</li>
       </ul>
+      </section>
 
       <h4 className="">Customer Satisfaction:</h4>
       <p className="">

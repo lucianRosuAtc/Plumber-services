@@ -59,7 +59,7 @@
 }
 
 h1 {
-  @apply text-4xl xl:text-7xl xl:leading-normal font-bold;
+  @apply text-4xl lg:text-7xl xl:leading-normal font-bold;
 }
 
 h2{
