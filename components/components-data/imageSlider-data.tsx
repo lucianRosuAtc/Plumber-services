@@ -19,3 +19,6 @@ export const imageSliderData = [{
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, vitae!',
     image: '/images/4.jpg'
 }];
+
+
+

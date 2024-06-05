@@ -1,39 +1,40 @@
 export const testimonialData = [
     {
       img: "/img/recommendations/Amber.jpg",
-      name: "Amber Robeck",
-      job: "Full Stack Web Developer @ edX",
+      name: "Jennifer Brown",
+      jobAddress: "EX2 ...",
       description:
-        "Lucian is a fast learner with a unique approach to solving problems. Lucian is not afraid to dive into challenging tasks with a positive attitude. He is a great contributor to any team. I look forward to working with Lucian in the future and highly recommend him for any projects.",
+        "Joe was outstanding. He arrived on time and maintained a friendly yet professional demeanor throughout. We had several electricians try to fix a recurring issue with our lighting, but Joe was the first to properly diagnose and explain the problem. Highly recommend Joe—100% satisfied with his service. Thank you, Joe!",
     },
     {
       img: "/img/recommendations/Jade.jpeg",
-      name: "Jade Page",
-      job: "Senior Web Developer @ Adopstar Ltd",
+      name: "David Colley",
+      jobAddress: "EX4 ...",
       description:
-        "An absolute pleasure to work with, Lucian Rosu radiates positivity and kindness, fostering a harmonious and supportive work environment effortlessly.",
+        "Joe managed the wiring for our home renovation and did a superb job. The setup was neat and clean. Joe worked efficiently and accommodated our tight schedule, ensuring everything was operational on time. He’s reliable and skilled. Highly recommend his services!",
     },
     {
       img: "/img/recommendations/Gilson.jpg",
-      name: "Gilson de Almeida",
-      job: "Full Stack Developer",
+      name: "Sarah Johnson",
+      jobAddress: "Full Stack Developer",
       description:
-      "Lucian collaborated with us on a project. During this period, he proved that he is an ambitious, hardworking person with good technical skills who has a strong desire to learn even more and improve himself. He works very well in the team and is always willing to help. Lucian is a person I highly recommend.",
+      "Joe did a great job replacing our kitchen tiles, installing new outlets, and setting up under-cabinet lighting. Communication with Joe was excellent, and the quality of work exceeded expectations. He also upgraded our fuse box and installed a new light fixture. Great value for money. Highly recommend!",
     },
     {
       img: "/img/recommendations/AlexErnila.jpg",
-      name: "Alex Ernila",
-      job: "Software Developer @ Continental",
+      name: "Mark Williams",
+      jobAddress: "EX1 ...",
       description:
-      "Lucian Rosu is one of the best among all the people I have ever worked with. He is a very productive person, hardworking, broad-minded and forward-thinking individual. Intelligent, ambitious, energetic and proactive perfectionist. The desire for proficiency make Lucian a valuable asset to the team.",
+      "Joe tailored his work to meet our needs, and we were very satisfied. The wiring under the sink for the garbage disposal was neatly done, and he prepared everything for the new appliances. Joe also installed our new ceiling fans perfectly. Highly recommend for a professional job!",
     },
   
     {
       img: "/img/recommendations/Kieran.jpeg",
-      name: "Kieran Colley",
-      job: "Senior Full Stack React/NextJs Developer @ Adopstar Ltd",
+      name: "Laura Taylor",
+      jobAddress: "EX3 ...",
       description:
-        "Lucian is a great person to work with, always wanting to learn new things and get stuck in. He has a great personality and a great work ethic.",
+        "Joe provided a competitive quote for installing four new ceiling lights. He delivered the quote quickly and fit the work into our timeline. Joe worked diligently, completing the job in just a few hours. Everything was tidy, and the lights work perfectly. Thank you, Joe!",
     },
   ];
   
+
