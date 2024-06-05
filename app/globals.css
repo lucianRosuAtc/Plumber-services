@@ -97,3 +97,16 @@ input:checked + label {
   @apply opacity-100 transform-none !important;
 }
 
+
+
+/* ////Hero//// */
+
+.hero-text {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  font-size: 5vw;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3), 5px 5px 70px rgba(255,255,255,0.5);
+  transform:  translate(-50%, 50%);
+}
