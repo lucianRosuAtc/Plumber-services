@@ -338,13 +338,6 @@ export const social = [
 
 
 
-// Aaron was fantastic. He arrived on time and was friendly, yet professional throughout. We've had several different plumbers in with ongoing problems with the boiler for several months. Aaron tool the time to investigate it properly and explain to me what he had found. The fault required the manufacturer to attend to replace a part, Aaron arranged this for us and let us know we could call him when the manufacturer was here should there be any issues. I would highly recommend Aaron to anyone and wouldn't hesitate to use him again 100% satisfied, thank you Aaron.
 
-// Aaron completed an entire first, second and final fix in our house conversion and did a fab job. Was particularly nice to see all the pipe work during first fix, so neat and clean. He worked really efficiently and was really helpful when we needed work done to a tight timescale and got it all plumbed in and functioning perfectly on schedule. Very reliable and proficient plumber!
 
-// Tom did an excellent job removing the tiles around our bath, installing new taps, and fitting a new bath panel which looks as if it was always meant to be there. I had great communication with Tom from the beginning, and the job was completed to an excellent standard which exceeded my expectations. He also installed new taps on our bathroom sink and a new bathroom cabinet. Great value for money and would use again - couldn't recommend enough.
-
-// Tom carried out the work to fit in with our requirements and we were very pleased with the work. All the pipe work was tidy and left room under the sink for the boil tap he also fitted. Tom prepared all the pipes for the new radiators and fitted them after the plastering and painting. I would recommend Tom to all people who want a professional plumbing job carried out.
-
-// Henry gave us an acceptable quote to supply and fix 3 radiators, he provided the quotation very quickly and was able to fit in with our timescale to do the work. He was very industrious, not stopping at all during the day and completed work in the afternoon, everything was very tidy and it all works perfectly. Thank you Henry you are one great plumber will definitely be in touch for the next job
 
