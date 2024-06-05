@@ -14,7 +14,7 @@ export default function Hero() {
         </p>
       </div>
       <Image
-        src="/images/parallax/theplumber.webp"
+        src="/images/plumber/theplumber.webp"
         width="600"
         height="500"
         alt="Plumber fixing a pipe"
