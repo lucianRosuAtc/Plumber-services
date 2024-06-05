@@ -1,18 +1,32 @@
 import React from "react";
 import ImageSlider from "../components/ImageSlider";
+import Image from "next/image";
 
 export default function About() {
   return (
-    <div>
-      <p className="">About Me</p>
+    <div className="m-4">
+      <h1 className="my-4 md:my-8 text-secondary dark:text-primary">About Me</h1>
       <p className="">
         Welcome to my plumbing and electrical services website! My name is Joe
         Doe, and I am a professional with over 15 years of experience in both
-        plumbing and electrical work. My journey began with a passion for
+        plumbing and electrical work.
+         {/* My journey began with a passion for
         solving complex issues and helping people maintain comfortable,
         efficient homes. Over the years, I have honed my skills and expanded my
-        knowledge to provide top-notch solutions for a wide range of needs.
+        knowledge to provide top-notch solutions for a wide range of needs. */}
       </p>
+      <Image
+        src="/images/plumber/plumber.webp"
+        width="600"
+        height="500"
+        alt="Plumber fixing a pipe"
+        className="w-full h-[500px] md:h-[800px] object-cover"
+
+/>
+
+
+
+
 
       <p className="">Why Choose Me?</p>
 
