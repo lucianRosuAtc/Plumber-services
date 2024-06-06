@@ -6,7 +6,7 @@ import React from "react";
 // MARK: NAVIGATION LINKS
 export const navigationlinks = [
     { url: "/", name: "Home" },
-    { url: "/projects", name: "My Projects" },
+    { url: "/services", name: "My Services" },
     { url: "/contact", name: "Contact" },
 ];
 
