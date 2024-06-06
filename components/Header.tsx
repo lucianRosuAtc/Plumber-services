@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import ThemeToggler from "./ThemeToggler";
-import Logo from "./components-data/Logo";
+import Logo from "./Logo";
 import NavBar from "./NavBar";
 import MobileNav from "./MobileNav";
 import { usePathname } from "next/navigation";

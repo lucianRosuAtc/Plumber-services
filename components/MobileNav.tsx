@@ -29,16 +29,16 @@ export default function MobileNav() {
             {/* MARK: if I call Logo as a component the sheet won't close
              */}
             <SheetClose asChild>
-              <Link href="/">
-                <Image
-                  src="/img/logo&header/DevLuc.png"
-                  width={240}
-                  height={64}
-                  alt="Logo"
-                  className="object-cover w-36 md:w-60 h-10 md:h-16 rounded-md border-2 border-goldText cursor-pointer mt-12"
-                  priority
-                />
-              </Link>
+            <Link href="/">
+      <Image
+          src="/images/plumbing-logo-rmbg.png"
+        width={240}
+        height={64}
+        alt="Logo"
+        className="object-cover object-center rounded-full w-20 h-20 overflow-hidden cursor-pointer p-2  transition-all shadow-lg dark:bg-secondary/80 dark:border dark:border-primary"
+        priority
+      />
+    </Link>
             </SheetClose>
 
             <div className="flex flex-col items-center text-2xl gap-y-8">
