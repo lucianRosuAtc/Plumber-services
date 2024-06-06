@@ -52,10 +52,10 @@ export default function RecommendationsCarousel() {
     <div className="relative mb-4 md:mb-12 lg:mb-24 max-w-7xl mx-auto">
       <div className="flex flex-col mx-auto">
         <div className="flex flex-col justify-center items-center xl:items-start mb-12 max-w-md text-center mx-auto xl:mx-0 xl:text-left">
-            <h2 className="mb-4">Recommendations</h2>
-            <p className="subtitle mb-8">
-                Here are some recomandations from the people I&apos;ve work with.
-            </p>
+          <h2 className="mb-4">Recommendations</h2>
+          <p className="subtitle mb-8">
+            Here are some recomandations from the people I&apos;ve work with.
+          </p>
         </div>
 
         <div className="">
@@ -65,18 +65,20 @@ export default function RecommendationsCarousel() {
                 <Card className="group relative mx-2 md:mx-4 shadow-xl dark:bg-[#0C0A09] dark:shadow-secondary dark:shadow-lg mb-12">
                   <div className="flex items-center">
                     <Image
-                        src={recommendation.img}
-                        alt="recommendation"
-                        width={70}
-                        height={70}
-                        className="shadow-lg p-1 dark:shadow-lg dark:shadow-secondary object-cover object-center rounded-full mx-4 my-5"
-                        priority
+                      src={recommendation.img}
+                      alt="recommendation"
+                      width={70}
+                      height={70}
+                      className="shadow-lg p-1 dark:shadow-lg dark:shadow-secondary object-cover object-center rounded-full mx-4 my-5"
+                      priority
                     />
                     <div className="flex flex-col">
                       <p className="text-base md:text-xl xl:text-2xl xl:leading-normal font-semibold; px-4 pt-5">
                         {recommendation.name}
                       </p>
-                      <p className="px-4 pb-5 text-xs">{recommendation.jobAddress}</p>
+                      <p className="px-4 pb-5 text-xs">
+                        {recommendation.jobAddress}
+                      </p>
                     </div>
                   </div>
                   <CardDescription className="h-64 md:text-base xl:text-lg text-muted-foreground font-light px-5 pb-10 overflow-hidden">

@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -9,7 +9,10 @@ export default function NavBar() {
   return (
     <div className="hidden xl:flex gap-x-8 items-center">
       {navigationlinks.map((navlink) => (
-      <Link className={`link hover:text-primary pb-1 ${pathname === navlink.url ? 'active' : ''}`}
+        <Link
+          className={`link hover:text-primary pb-1 ${
+            pathname === navlink.url ? "active" : ""
+          }`}
           key={navlink.url}
           href={navlink.url}
         >
@@ -19,6 +22,3 @@ export default function NavBar() {
     </div>
   );
 }
-
-
-

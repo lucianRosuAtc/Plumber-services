@@ -6,7 +6,7 @@ export default function Logo() {
   return (
     <Link href="/">
       <Image
-          src="/images/plumbing-logo-rmbg.png"
+        src="/images/plumbing-logo-rmbg.png"
         width={240}
         height={64}
         alt="Logo"
