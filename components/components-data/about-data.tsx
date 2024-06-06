@@ -1,78 +1,107 @@
 export const plumbingData = [
     {
-        plumbing:"",
+        id: 1,
+        plumbing:"Bathroom & Kitchen Plumbing",
     },
     {
-        plumbing:"",
+        id: 2,
+        plumbing:"Blocked Toilets",
     },
     {
-        plumbing:"",
+        id: 3,
+        plumbing:"Pipe Fitter",
     },
     {
-        plumbing:"",
+        id: 4,
+        plumbing:"Radiator Installation",
     },
     {
-        plumbing:"",
+        id: 5,
+        plumbing:"Radiator Thermostat Valve Repair",
     },
     {
-        plumbing:"",
+        id: 6,
+        plumbing:"Tap Repair",
     },
     {
-        plumbing:"",
+        id: 7,
+        plumbing:"Underfloor Heating Repair",
     },
     {
-        plumbing:"",
+        id: 8,
+        plumbing:"Water Leak Detection",
     },
     {
-        plumbing:"",
+        id: 9,
+        plumbing:"Water Supply Pipe Repairs",
     },
     {
-        plumbing:"",
+        id: 10,
+        plumbing:"Blocked Baths",
     },
     {
-        plumbing:"",
+        id: 11,
+        plumbing:"Emergency Plumber Service",
     },
     {
-        plumbing:"",
+        id: 12,
+        plumbing:"Plumbing Repairs",
     },
     {
-        plumbing:"",
+        id: 13,
+        plumbing:"Radiator Repair",
     },
     {
-        plumbing:"",
+        id: 14,
+        plumbing:"Shower Installation",
     },
     {
-        plumbing:"",
+        id: 15,
+        plumbing:"Thermal Dynamics",
     },
     {
-        plumbing:"",
+        id: 16,
+        plumbing:"Unvented Hot Water Cylinder Installation",
     },
     {
-        plumbing:"",
+        id: 17,
+        plumbing:"Water Pumps Installation",
     },
     {
-        plumbing:"",
+        id: 18,
+        plumbing:"Blocked Sinks",
     },
     {
-        plumbing:"",
+        id: 19,
+        plumbing:"General Plumbing",
     },
     {
-        plumbing:"",
+        id: 20,
+        plumbing:"Power Flushing",
     },
     {
-        plumbing:"",
+        id: 21,
+        plumbing:"Radiator Thermostat Valve Installation",
     },
     {
-        plumbing:"",
+        id: 22,
+        plumbing:"Shower Repair",
     },
     {
-        plumbing:"",
+        id: 23,
+        plumbing:"Underfloor Heating Installation",
     },
     {
-        plumbing:"",
+        id: 24,
+        plumbing:"Unvented Hot Water Cylinder Servicing / Repair",
     },
     {
-        plumbing:"",
+        id: 25,
+        plumbing:"Water Pumps Repair",
+    },
+    {
+        id: 26,
+        plumbing:"Water Mains Specialist (Pipe Replacement, Moling, and Lead Pipes)",
     },
 ]
 
@@ -80,102 +109,135 @@ export const plumbingData = [
 
 export const electricData = [
     {
-        electrics:"",
+        id: 1,
+        electrics:"Electric Boiler Installation",
     },
     {
-        electrics:"",
+        id: 2,
+        electrics:"Electric Boiler Servicing / Repair",
     },
     {
-        electrics:"",
+        id: 3,
+        electrics:"Electric Cookers",
     },
     {
-        electrics:"",
+        id: 4,
+        electrics:"Electric Gate Wiring",
     },
     {
-        electrics:"",
+        id: 5,
+        electrics:"Electric Heating",
     },
     {
-        electrics:"",
+        id: 6,
+        electrics:"Electric Radiators",
     },
     {
-        electrics:"",
+        id: 7,
+        electrics:"Electric Range Cookers",
     },
     {
-        electrics:"",
+        id: 8,
+        electrics:"Electric Showers",
     },
     {
-        electrics:"",
+        id: 9,
+        electrics:"Electric Smart Thermostats",
     },
     {
-        electrics:"",
+        id: 10,
+        electrics:"Electric Sockets",
     },
     {
-        electrics:"",
+        id: 11,
+        electrics:"Electric Stoves",
     },
     {
-        electrics:"",
+        id: 12,
+        electrics:"Electric Vehicle Charger Installation",
     },
     {
-        electrics:"",
+        id: 13,
+        electrics:"Electrical Contractors",
     },
     {
-        electrics:"",
+        id: 14,
+        electrics:"Electrical Heater Repair",
     },
     {
-        electrics:"",
+        id: 15,
+        electrics:"Electrical Under Floor Heating Installation",
     },
     {
-        electrics:"",
+        id: 16,
+        electrics:"Electrical Under Floor Heating Repair",
     },
     {
-        electrics:"",
+        id: 17,
+        electrics:"Emergency Electrician Service",
     },
     {
-        electrics:"",
+        id: 18,
+        electrics:"Emergency Lighting",
     },
     {
-        electrics:"",
+        id: 19,
+        electrics:"Energy Efficient Lighting",
     },
     {
-        electrics:"",
+        id: 20,
+        electrics:"Extractor Fans",
     },
     {
-        electrics:"",
+        id: 21,
+        electrics:"Fault Finding",
     },
     {
-        electrics:"",
+        id: 22,
+        electrics:"Fuseboard / Consumer Unit Installation",
     },
     {
-        electrics:"",
+        id: 23,
+        electrics:"Fuseboard / Consumer Unit Repair",
     },
     {
-        electrics:"",
+        id: 24,
+        electrics:"Garden Lighting",
     },
     {
-        electrics:"",
+        id: 25,
+        electrics:"Hot Tub Wiring",
     },
     {
-        electrics:"",
+        id: 26,
+        electrics:"House Rewiring",
     },
     {
-        electrics:"",
+        id: 27,
+        electrics:"Immersion Heater Installation",
     },
     {
-        electrics:"",
+        id: 28,
+        electrics:"Immersion Heater Repair",
     },
     {
-        electrics:"",
+        id: 29,
+        electrics:"LED Lighting",
     },
     {
-        electrics:"",
+        id: 30,
+        electrics:"Lighting Design",
     },
     {
-        electrics:"",
+        id: 31,
+        electrics:"Smoke Alarms",
     },
     {
-        electrics:"",
+        id: 32,
+        electrics:"Storage Heating",
     },
     {
-        electrics:"",
+        id: 33,
+        electrics:"Electrical Installation Condition Report - Safety Checks - EICR",
     },
 ]
