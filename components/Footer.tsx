@@ -33,8 +33,7 @@ export default function Footer() {
           ))}
         </div>
 
-        {/* MARK: Social Media
-         */}
+        {/* MARK: Social Media */}
         <div className="flex gap-x-8 items-center justify-center">
           {social.map((item, index) => (
             <a
