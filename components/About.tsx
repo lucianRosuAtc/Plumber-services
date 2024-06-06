@@ -40,9 +40,9 @@ export default function About() {
         </div>
       </section>
 
-      <section className=" flex flex-col bg-orange-100 dark:bg-accent w-full items-center justify-center ">
-        <div className=" max-w-7xl my-14 md:my-20">
-          <h2 className="text-center mb-4 md:mb-12 text-gray-800 dark:text-primary border-b border-primary max-w-[450px] mx-auto">
+      <section className=" flex flex-col bg-orange-100 dark:bg-accent w-full items-center justify-center p-8">
+        <div className="border flex flex-col items-center justify-center max-w-7xl my-2 md:my-20">
+          <h2 className="text-center mb-4 md:mb-12 text-gray-800 dark:text-primary border-b border-primary w-[270px] xl:w-[450px] mx-auto">
             Why Choose Me?
           </h2>
           <ul className="mb-12">
@@ -142,14 +142,14 @@ export default function About() {
           </h2>
 
           <p className="flex mb-3">
-          <BookUser className="text-primary mr-2"/>
+            <BookUser className="text-primary mr-2" />
             My goal is to build lasting relationships with my clients based on
             trust, reliability, and excellent service. I am proud to have many
             satisfied customers who regularly recommend my services to their
             friends and family.
           </p>
           <p className="flex">
-          <Trophy className="text-primary mr-2"/>
+            <Trophy className="text-primary mr-2" />
             Thank you for considering my plumbing and electrical services. If
             you have any questions or need assistance with an issue, please
             don&apos;t hesitate to contact me. I look forward to working with
