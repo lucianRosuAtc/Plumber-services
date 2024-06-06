@@ -12,7 +12,7 @@ export default function Images() {
   };
 
   return (
-    <div className="w-full h-[550px] flex items-center justify-center bg-orange-200 my-6 md:my-12">
+    <div className="w-full h-[550px] flex items-center justify-center bg-orange-200 dark:bg-accent my-6 md:my-12">
       <div className="h-[500px] md:h-96 flex md:flex-row flex-col flex-nowrap justify-start">
         {imageSliderData.map((data, index) => (
           <React.Fragment key={data.id}>
@@ -35,7 +35,7 @@ export default function Images() {
               style={{ backgroundImage: `url('${data.image}')`}}
             >
               <div className="text-white flex flex-nowrap">
-                <div className="border border-orange-500 bg-gray-800 text-white rounded-full w-12 h-10 md:h-8 flex items-center justify-center m-1.5 md:my-auto md:m-5 ">
+                <div className="border border-orange-500 bg-gray-800 text-white rounded-full w-12 h-9 md:h-8 flex items-center justify-center m-1.5 md:my-auto md:m-5 ">
                   {index + 1}
                 </div>
 
@@ -47,7 +47,7 @@ export default function Images() {
                   } transition-all duration-300 ease-in-out delay-300`}
                 >
                   <h4 className="uppercase font-bold mr-auto">{data.title}</h4>
-                  <p className="text-gray-200 pt-1">{data.description}</p>
+                  <p className="text-gray-200 pt-1 font-medium">{data.description}</p>
                 </div>
               </div>
             </label>

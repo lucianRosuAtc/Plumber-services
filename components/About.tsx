@@ -1,7 +1,12 @@
 import React from "react";
 import ImageSlider from "../components/ImageSlider";
 import Image from "next/image";
-import { ArrowBigDown, Bath, BookmarkCheck, Handshake, UserCheck } from "lucide-react";
+import {
+  ArrowBigDown,
+  BookmarkCheck,
+  Handshake,
+  UserCheck,
+} from "lucide-react";
 import { Button } from "./ui/button";
 import Link from "next/link";
 
@@ -80,13 +85,13 @@ export default function About() {
 
       <section className="mx-8">
         <div className="max-w-7xl mx-auto">
-          <h2 className="my-4 md:my-12 text-gray-800 dark:text-primary">
+          <h2 className="my-4 md:my-12 light:text-gray-800 dark:text-primary">
             My Services Include:
           </h2>
-          <h4 className="mb-4">Plumbing Services:</h4>
+          <h4 className="mb-4 text-center my-4 md:my-12 light:text-gray-800 border-b border-primary max-w-[250px]">
+            Plumbing Services:</h4>
           <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <li className="list-disc list-inside">
-              {" "}
               Bathroom & Kitchen Plumbing
             </li>
             <li className="list-disc list-inside">Blocked Baths</li>
@@ -133,16 +138,18 @@ export default function About() {
       <ImageSlider />
 
       <div className="flex flex-col items-center justify-center">
-<ArrowBigDown className="animate-bounce transition-all text-primary" />
-      <Link href="/contact">
-        <Button className="gap-2 px-9">Contact Me</Button>
-      </Link>
+        <ArrowBigDown className="animate-bounce transition-all text-primary" />
+        <Link href="/contact">
+          <Button className="gap-2 px-9">Contact Me</Button>
+        </Link>
       </div>
+
       <section className="mx-8">
         <div className="max-w-7xl mx-auto">
-          <h2 className="my-4 md:my-12 text-gray-800 dark:text-primary">
+          
+          <h4 className="mb-4 text-center my-4 md:my-12 light:text-gray-800 border-b border-primary max-w-[250px]">
             Electrical Services
-          </h2>
+          </h4>
           <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <li className="list-disc list-inside">
               Electric Boiler Installation
