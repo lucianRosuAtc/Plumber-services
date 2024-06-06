@@ -1,24 +1,22 @@
+
 export const imageSliderData = [{
     id: 'c1',
-    title: 'Title 1',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, vitae!',
-    image: '/images/1.jpg'
+    title: 'Kitchen View',
+    description: 'A modern kitchen with state-of-the-art appliances and stylish decor.',
+    image: '/images/accordion/kitchen.jpg'
 }, {
     id: 'c2',
-    title: 'Title 2',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, vitae!',
-    image: '/images/2.jpg'
+    title: 'Radiator',
+    description: 'A compact and efficient small radiator for cozy warmth.',
+    image: '/images/accordion/smallradiator.jpg'
 }, {
     id: 'c3',
-    title: 'Title 3',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, vitae!',
-    image: '/images/3.jpg'
+    title: 'Bathroom Design',
+    description: 'Elegant and serene bathroom with contemporary fittings.',
+    image: '/images/accordion/bathroom.jpg'
 }, {
     id: 'c4',
-    title: 'Title 4',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, vitae!',
-    image: '/images/4.jpg'
+    title: 'Boiler System',
+    description: 'Reliable and energy-efficient boiler for consistent heating.',
+    image: '/images/accordion/boiler.jpg'
 }];
-
-
-
