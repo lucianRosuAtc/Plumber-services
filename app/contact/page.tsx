@@ -1,4 +1,4 @@
-import ContactForm from "@/components/ContactForm";
+// import ContactForm from "@/components/ContactForm";
 import { HomeIcon, MailIcon, PhoneCall } from "lucide-react";
 
 export default function Contact() {
@@ -23,10 +23,10 @@ export default function Contact() {
           <div className="flex items-center gap-x-8 ">
             <MailIcon size={18} className="text-primary" />
             <a
-              href="mailto:lucian.rosu.atc@gmail.com"
+              href="mailto:email@gmail.com"
               className="hover:text-primary"
             >
-              lucian.rosu.atc@gmail.com
+              email@gmail.com
             </a>
           </div>
           <div className="flex items-center gap-x-8">
@@ -35,13 +35,13 @@ export default function Contact() {
           </div>
           <div className="flex items-center gap-x-8">
             <PhoneCall size={18} className="text-primary" />
-            <a href="tel:07505709297" className="hover:text-primary">
-              07505709297
+            <a href="tel:07505700000" className="hover:text-primary">
+              07505700000
             </a>
           </div>
         </div>
 
-        <ContactForm />
+        {/* <ContactForm /> */}
       </div>
     </div>
   );
