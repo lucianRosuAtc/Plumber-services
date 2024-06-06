@@ -35,7 +35,7 @@ export default function RecommendationsCarousel() {
         breakpoint: 768,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
         },
       },
       {
@@ -49,7 +49,7 @@ export default function RecommendationsCarousel() {
   };
 
   return (
-    <div className="relative mb-4 lg:mb-12 max-w-7xl mx-auto">
+    <div className="relative mb-4 md:mb-12 lg:mb-24 max-w-7xl mx-auto">
       <div className="flex flex-col mx-auto">
         <div className="flex flex-col justify-center items-center xl:items-start mb-12 max-w-md text-center mx-auto xl:mx-0 xl:text-left">
             <h2 className="mb-4">Recommendations</h2>

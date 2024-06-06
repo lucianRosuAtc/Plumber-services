@@ -1,4 +1,3 @@
-
 "use client";
 import {
   Sheet,
@@ -14,7 +13,6 @@ import Image from "next/image";
 
 import { navigationlinks } from "./components-data/links-data";
 import { social } from "./components-data/links-data";
-import Logo from "./components-data/Logo";
 
 export default function MobileNav() {
   const pathname = usePathname();
@@ -31,11 +29,11 @@ export default function MobileNav() {
             <SheetClose asChild>
               <Link href="/">
                 <Image
-                  src="/img/logo&header/DevLuc.png"
+                  src="/images/plumbing-logo-rmbg.png"
                   width={240}
                   height={64}
                   alt="Logo"
-                  className="object-cover w-36 md:w-60 h-10 md:h-16 rounded-md border-2 border-goldText cursor-pointer mt-12"
+                  className="object-cover object-center rounded-full w-20 h-20 overflow-hidden cursor-pointer p-2  transition-all shadow-lg dark:bg-secondary/80 dark:border dark:border-primary"
                   priority
                 />
               </Link>
@@ -64,7 +62,9 @@ export default function MobileNav() {
                   href={item.url}
                   key={index}
                   target="_blank"
-                  className="text-4xl hover:text-primary text-foreground transition-all"
+                  // className="text-4xl hover:text-primary text-foreground transition-all"
+                  className="text-secondary/80 hover:text-primary dark:text-orange-100 dark:hover:text-primary text-3xl transition-all shadow-lg p-2 rounded-full bg-gray-50 dark:bg-black/20 dark:shadow-gray-600 dark:shadow-sm object-cover object-center"
+                  
                 >
                   {item.name}
                 </a>

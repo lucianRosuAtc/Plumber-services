@@ -35,18 +35,18 @@ export const plumbingData = [
         id: 9,
         plumbing:"Water Supply Pipe Repairs",
     },
-    {
-        id: 10,
-        plumbing:"Blocked Baths",
-    },
+    // {
+    //     id: 10,
+    //     plumbing:"Blocked Baths",
+    // },
     {
         id: 11,
         plumbing:"Emergency Plumber Service",
     },
-    {
-        id: 12,
-        plumbing:"Plumbing Repairs",
-    },
+    // {
+    //     id: 12,
+    //     plumbing:"Plumbing Repairs",
+    // },
     {
         id: 13,
         plumbing:"Radiator Repair",
@@ -79,10 +79,10 @@ export const plumbingData = [
         id: 20,
         plumbing:"Power Flushing",
     },
-    {
-        id: 21,
-        plumbing:"Radiator Thermostat Valve Installation",
-    },
+    // {
+    //     id: 21,
+    //     plumbing:"Radiator Thermostat Valve Installation",
+    // },
     {
         id: 22,
         plumbing:"Shower Repair",
@@ -91,18 +91,18 @@ export const plumbingData = [
         id: 23,
         plumbing:"Underfloor Heating Installation",
     },
-    {
-        id: 24,
-        plumbing:"Unvented Hot Water Cylinder Servicing / Repair",
-    },
+    // {
+    //     id: 24,
+    //     plumbing:"Unvented Hot Water Cylinder Servicing / Repair",
+    // },
     {
         id: 25,
         plumbing:"Water Pumps Repair",
     },
-    {
-        id: 26,
-        plumbing:"Water Mains Specialist (Pipe Replacement, Moling, and Lead Pipes)",
-    },
+    // {
+    //     id: 26,
+    //     plumbing:"Water Mains Specialist (Pipe Replacement, Moling, and Lead Pipes)",
+    // },
 ]
 
 
@@ -112,10 +112,10 @@ export const electricData = [
         id: 1,
         electrics:"Electric Boiler Installation",
     },
-    {
-        id: 2,
-        electrics:"Electric Boiler Servicing / Repair",
-    },
+    // {
+    //     id: 2,
+    //     electrics:"Electric Boiler Servicing / Repair",
+    // },
     {
         id: 3,
         electrics:"Electric Cookers",
@@ -144,18 +144,18 @@ export const electricData = [
         id: 9,
         electrics:"Electric Smart Thermostats",
     },
-    {
-        id: 10,
-        electrics:"Electric Sockets",
-    },
+    // {
+    //     id: 10,
+    //     electrics:"Electric Sockets",
+    // },
     {
         id: 11,
         electrics:"Electric Stoves",
     },
-    {
-        id: 12,
-        electrics:"Electric Vehicle Charger Installation",
-    },
+    // {
+    //     id: 12,
+    //     electrics:"Electric Vehicle Charger Installation",
+    // },
     {
         id: 13,
         electrics:"Electrical Contractors",
@@ -164,14 +164,14 @@ export const electricData = [
         id: 14,
         electrics:"Electrical Heater Repair",
     },
-    {
-        id: 15,
-        electrics:"Electrical Under Floor Heating Installation",
-    },
-    {
-        id: 16,
-        electrics:"Electrical Under Floor Heating Repair",
-    },
+    // {
+    //     id: 15,
+    //     electrics:"Electrical Under Floor Heating Installation",
+    // },
+    // {
+    //     id: 16,
+    //     electrics:"Electrical Under Floor Heating Repair",
+    // },
     {
         id: 17,
         electrics:"Emergency Electrician Service",
@@ -192,22 +192,22 @@ export const electricData = [
         id: 21,
         electrics:"Fault Finding",
     },
-    {
-        id: 22,
-        electrics:"Fuseboard / Consumer Unit Installation",
-    },
-    {
-        id: 23,
-        electrics:"Fuseboard / Consumer Unit Repair",
-    },
+    // {
+    //     id: 22,
+    //     electrics:"Fuseboard / Consumer Unit Installation",
+    // },
+    // {
+    //     id: 23,
+    //     electrics:"Fuseboard / Consumer Unit Repair",
+    // },
     {
         id: 24,
         electrics:"Garden Lighting",
     },
-    {
-        id: 25,
-        electrics:"Hot Tub Wiring",
-    },
+    // {
+    //     id: 25,
+    //     electrics:"Hot Tub Wiring",
+    // },
     {
         id: 26,
         electrics:"House Rewiring",
@@ -236,8 +236,8 @@ export const electricData = [
         id: 32,
         electrics:"Storage Heating",
     },
-    {
-        id: 33,
-        electrics:"Electrical Installation Condition Report - Safety Checks - EICR",
-    },
+    // {
+    //     id: 33,
+    //     electrics:"Electrical Installation Condition Report - Safety Checks - EICR",
+    // },
 ]
