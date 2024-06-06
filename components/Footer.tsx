@@ -11,7 +11,7 @@ const year = date.getFullYear();
 export default function Footer() {
   const pathname = usePathname();
   return (
-    <div className="bg-secondary/90 dark:bg-secondary pt-8 border-t border-primary shadow-xl">
+    <div className="bg-[#eheheh] dark:bg-secondary/80 pt-8 border-t-2 border-primary ">
       <div className="grid lg:grid-cols-3 justify-center items-center gap-y-8">
         <div className="mx-auto">
           <Logo />
@@ -22,7 +22,7 @@ export default function Footer() {
         <div className="flex gap-x-8 items-center justify-center">
           {navigationlinks.map((navlink) => (
             <Link
-              className={`link text-white hover:text-primary pb-1 ${
+              className={`link text-secondary/80 dark:text-white hover:text-primary pb-1 font-semibold ${
                 pathname === navlink.url ? "active" : ""
               }`}
               key={navlink.url}
@@ -41,7 +41,7 @@ export default function Footer() {
               href={item.url}
               key={index}
               target="_blank"
-              className="text-primary hover:text-orange-100 dark:text-orange-100 dark:hover:text-primary text-3xl transition-all"
+              className="text-secondary/80 hover:text-primary dark:text-orange-100 dark:hover:text-primary text-3xl transition-all shadow-lg p-2 rounded-full bg-gray-50 dark:bg-black/20 dark:shadow-gray-600 dark:shadow-sm object-cover object-center "
             >
               {item.name}
             </a>
@@ -49,8 +49,8 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="flex justify-center px-4 text-white py-8 lg:pt-14">
-        <p className="text-sm text-center">
+      <div className="flex justify-center px-4 text-secondary/80 dark:text-white py-8 lg:pt-14">
+        <p className="text-sm text-center font-medium">
           <span className="pr-1">&copy;</span>{" "}
           {`${year} Lucian Dev, All rights reserved.`}{" "}
         </p>

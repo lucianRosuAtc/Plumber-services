@@ -20,7 +20,8 @@ export default function Images() {
               type="radio"
               name="slide"
               id={data.id}
-              checked={selectedCard === data.id}
+              defaultChecked={selectedCard === data.id}
+              onChange={() => {}}
               className="hidden"
             />
 
@@ -35,7 +36,7 @@ export default function Images() {
               style={{ backgroundImage: `url('${data.image}')`}}
             >
               <div className="text-white flex flex-nowrap">
-                <div className="border border-orange-500 bg-gray-800 text-white rounded-full w-12 h-9 md:h-8 flex items-center justify-center m-1.5 md:my-auto md:m-5 ">
+                <div className="border border-orange-500 bg-gray-800 text-white rounded-full w-12 h-10 md:h-8 flex items-center justify-center m-1.5 md:my-auto md:m-5 ">
                   {index + 1}
                 </div>
 
