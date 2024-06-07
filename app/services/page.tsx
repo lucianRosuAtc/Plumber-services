@@ -1,6 +1,7 @@
 "use client";
 
 import TypedComponent from "@/components/TypedComponent";
+import Image from "next/image";
 import React, { useEffect } from "react";
 
 let ScrollReveal: any;
@@ -21,15 +22,28 @@ export default function Page() {
 
   return (
     <div>
-      <h1>My Services</h1>
-      <div className="">
-        <p className="subtitle">
-          My journey began with a passion for solving complex issues and helping
-          people maintain comfortable, efficient homes. Over the years, I have
-          honed my skills and expanded my knowledge to provide top-notch
-          solutions for a wide range of needs.
-        </p>
-        <TypedComponent />
+      <h2>My Services</h2>
+
+      <div className="flex flex-col md:flex-row max-w-7xl items-center justify-center mx-auto">
+        <div className="md:mr-12  my-9 mx-8 md:mx-0">
+          <h3 className="h-20">
+            <TypedComponent />
+          </h3>
+          <p className="subtitle">
+            My journey began with a passion for solving complex issues and
+            helping people maintain comfortable, efficient homes. Over the
+            years, I have honed my skills and expanded my knowledge to provide
+            top-notch solutions for a wide range of needs.
+          </p>
+        </div>
+
+        <Image
+          src="/images/plumber/niceBathroom.jpg"
+          width={500}
+          height={500}
+          alt="bathroom"
+          className="w-[300px] md:w-[500px] h-[300px] md:h-[500px] object-cover rounded-lg shadow-xl border border-gray-300 dark:border-primary"
+        />
       </div>
       <section className="">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur

@@ -7,9 +7,9 @@ const TypedComponent = () => {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: ["I'am a plumber", 'And an Electrician', 'And much more'],
-      typeSpeed: 50,
-      backSpeed: 50,
-        loop: true,
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: false,
     });
 
     // Cleanup
