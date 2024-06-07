@@ -20,7 +20,7 @@ export default function ImageSlider() {
                 alt={item.name}
                 width={100}
                 height={100}
-                className="rounded-full w-16 md:w-20 h-16 md:h-20 border-2 dark:border-primary"
+                className="rounded-full w-16 md:w-20 h-16 md:h-20 border-2 border-white dark:border-primary shadow-xl"
               />
             </div>
           ))}
