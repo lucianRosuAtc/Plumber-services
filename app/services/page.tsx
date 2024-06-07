@@ -1,6 +1,7 @@
 "use client";
 
 import TypedComponent from "@/components/TypedComponent";
+import { AlarmClockCheck, BadgePoundSterling, SmilePlus } from "lucide-react";
 import Image from "next/image";
 import React, { useEffect } from "react";
 
@@ -21,11 +22,11 @@ export default function Page() {
   }, []);
 
   return (
-    <div>
+    <div className="mx-8">
       <h2>My Services</h2>
 
-      <div className="flex flex-col md:flex-row max-w-7xl items-center justify-center mx-auto">
-        <div className="md:mr-12  my-9 mx-8 md:mx-0">
+      <div className="flex flex-col md:flex-row max-w-7xl items-center justify-center mx-auto mb-16">
+        <div className="md:mr-12 my-9">
           <h3 className="h-20">
             <TypedComponent />
           </h3>
@@ -42,29 +43,41 @@ export default function Page() {
           width={500}
           height={500}
           alt="bathroom"
-          className="w-[300px] md:w-[500px] h-[300px] md:h-[500px] object-cover rounded-lg shadow-xl border border-gray-300 dark:border-primary"
+          className="w-[280px] md:w-[500px] h-[320px] md:h-[500px] object-cover rounded-lg shadow-xl border border-gray-300 dark:border-primary"
         />
       </div>
-      <section className="">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-        deleniti, asperiores facilis doloribus rerum cumque pariatur ipsam
-        debitis alias quod reprehenderit? Quae iste illo, doloribus culpa nam
-        odio quas necessitatibus magni fugit aut cupiditate voluptatem officiis
-        nemo. Consectetur explicabo amet, deleniti corporis porro assumenda
-        nostrum impedit voluptates beatae rerum itaque?
+
+      <section className="flex flex-col md:flex-row max-w-7xl items-center justify-center mx-auto mb-16 subtitle">
+        <p className="">
+          With years of experience in the field, I have developed a deep
+          understanding of the unique challenges that homeowners face. I am
+          committed to providing high-quality, personalized solutions that meet
+          your specific needs and budget. Whether you&apos;re dealing with a
+          minor issue or a major repair, you can count on me to deliver
+          professional, reliable service every time.
+        </p>
       </section>
 
-      <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <ul className="grid grid-cols-1 md:grid-cols-3 gap-4 subtitle">
         <li>
+          <BadgePoundSterling />
           Transparent Pricing: I provide clear and competitive quotes, so you
           know exactly what to expect. No hidden fees or surprise charges—just
           honest, straightforward pricing.
         </li>
         <li>
+          <AlarmClockCheck />
           Timely and Efficient: I understand that plumbing and electrical issues
           can be disruptive, so I work efficiently to complete the job as
           quickly as possible without compromising on quality. Your time and
           convenience are important to me.
+        </li>
+        <li>
+          <SmilePlus />
+          Customer Satisfaction: I value my customers and strive to provide the
+          best service possible. Your satisfaction is my top priority, and I
+          won&apos;t rest until you&apos;re completely satisfied with the work
+          done.
         </li>
       </ul>
     </div>
