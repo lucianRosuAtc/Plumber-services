@@ -9,6 +9,8 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import React from "react";
 
+import AllTheCustomers from "./AllTheCustomers";
+
 export default function RecommendationsCarousel() {
   const settings = {
     dots: false,
@@ -50,6 +52,7 @@ export default function RecommendationsCarousel() {
 
   return (
     <div className="relative mb-4 md:mb-12 lg:mb-24 max-w-7xl mx-auto">
+      <AllTheCustomers />
       <div className="flex flex-col mx-auto">
         <div className="flex flex-col justify-center items-center xl:items-start mb-12 max-w-md text-center mx-auto xl:mx-0 xl:text-left">
           <h2 className="mb-4">Recommendations</h2>
@@ -90,6 +93,7 @@ export default function RecommendationsCarousel() {
           </Slider>
         </div>
       </div>
+
     </div>
   );
 }

@@ -3,10 +3,10 @@ import ImageSlider from "../components/ImageSlider";
 import Image from "next/image";
 import {
   ArrowBigDown,
+  BadgeCheck,
   BookUser,
   BookmarkCheck,
   Handshake,
-  SmilePlus,
   Trophy,
   UserCheck,
 } from "lucide-react";
@@ -22,14 +22,11 @@ export default function About() {
           About Me
         </h1>
         <div className="flex flex-col lg:flex-row max-w-7xl items-center justify-center mx-auto">
-          <p className="mr-8 lg:text-3xl text-gray-700 dark:text-white my-8">
+          <p className="mr-8 lg:text-3xl text-gray-700 dark:text-white my-8 subtitle">
             Welcome to my plumbing and electrical services website! My name is
             Joe Doe, and I am a professional with over 15 years of experience in
             both plumbing and electrical work.
-            {/* My journey began with a passion for
-         solving complex issues and helping people maintain comfortable,
-         efficient homes. Over the years, I have honed my skills and expanded my
-        knowledge to provide top-notch solutions for a wide range of needs. */}
+         
           </p>
           <Image
             src="/images/plumber/plumber.webp"
@@ -46,7 +43,7 @@ export default function About() {
           <h2 className="text-center mb-4 md:mb-12 text-gray-800 dark:text-primary border-b border-primary w-[270px] xl:w-[450px] mx-auto">
             Why Choose Me?
           </h2>
-          <ul className="mb-6">
+          <ul className="mb-6 subtitle">
             <li className="flex">
               <UserCheck className="text-primary mr-2 hidden md:flex" />
               Expertise and Experience: With a solid background in both plumbing
@@ -72,20 +69,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* 
-      <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <li>
-          Transparent Pricing: I provide clear and competitive quotes, so you
-          know exactly what to expect. No hidden fees or surprise charges—just
-          honest, straightforward pricing.
-        </li>
-        <li>
-          Timely and Efficient: I understand that plumbing and electrical issues
-          can be disruptive, so I work efficiently to complete the job as
-          quickly as possible without compromising on quality. Your time and
-          convenience are important to me.
-        </li>
-      </ul> */}
+    
 
       <section className="mx-8">
         <div className="max-w-7xl my-14 md:my-20 mx-auto">
@@ -148,14 +132,14 @@ export default function About() {
             Customer Satisfaction:
           </h2>
 
-          <p className="flex">
+          <p className="flex subtitle">
             <BookUser className="text-primary mr-2 hidden md:flex" />
             My goal is to build lasting relationships with my clients based on
             trust, reliability, and excellent service. I am proud to have many
             satisfied customers who regularly recommend my services to their
             friends and family.
           </p>
-          <p className="flex my-3">
+          <p className="flex my-3 subtitle">
             <Trophy className="text-primary mr-2 hidden md:flex" />
             Thank you for considering my plumbing and electrical services. If
             you have any questions or need assistance with an issue, please
@@ -164,8 +148,8 @@ export default function About() {
             professionalism.
           </p>
 
-          <p className="flex">
-            <SmilePlus className="text-primary mr-2 hidden md:flex" />
+          <p className="flex subtitle">
+            <BadgeCheck className="text-primary mr-2 hidden md:flex " />
             Your satisfaction is my top priority, and I am committed to
             delivering top-notch solutions tailored to your specific
             requirements. Whether it&apos;s a small repair or a major installation,
