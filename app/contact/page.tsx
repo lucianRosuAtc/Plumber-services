@@ -1,4 +1,5 @@
 // import ContactForm from "@/components/ContactForm";
+import ContactForm from "@/components/ContactForm";
 import { HomeIcon, MailIcon, PhoneCall } from "lucide-react";
 
 export default function Contact() {
@@ -41,7 +42,7 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* <ContactForm /> */}
+        <ContactForm />
       </div>
     </div>
   );
