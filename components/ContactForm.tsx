@@ -1,6 +1,6 @@
 "use client";
 
-// import emailjs from "@emailjs/browser";
+import emailjs from "@emailjs/browser";
 import React, { useState } from "react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
@@ -27,7 +27,7 @@ export default function ContactForm() {
     setFormState({ ...formState, success: "", error: "" });
 
     if (!formState.email || !formState.name || !formState.message) {
-      setFormState({ ...formState, error: "All fields are required" });
+      setFormState({ ...formState, error: "All fields are required"});
       return;
     }
 
