@@ -28,7 +28,7 @@ export default function Page() {
     <div className="px-8 max-w-7xl mx-auto">
       <h2 className="mb-10 md:mb-20 text-center">My Services</h2>
 
-      <div className="flex flex-col md:flex-row items-center justify-center  mb-16">
+      <div className="flex flex-col md:flex-row items-center justify-center mb-16">
         <div className="md:mr-12 my-9">
           <h3 className="h-20">
             <TypedComponent />
