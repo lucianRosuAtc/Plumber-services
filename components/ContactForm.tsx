@@ -22,7 +22,7 @@ export default function ContactForm() {
     success: "",
   });
 
-  const sendEmail = (e) => {
+  const sendEmail = (e:any) => {
     e.preventDefault();
     setFormState({ ...formState, success: "", error: "" });
 
@@ -112,7 +112,7 @@ export default function ContactForm() {
             }
             placeholder="Your Message"
             required
-            rows="10"
+            rows= {10}
           />
           <MessageCircleMore
             size={20}
