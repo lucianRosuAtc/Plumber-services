@@ -25,7 +25,7 @@ export default function Contact() {
                 your problems, ensuring your home or business runs smoothly.
               </p>
 
-              <div className="flex flex-col gap-y-6 xl:gap-y-8 xl:text-lg">
+              <div className="flex flex-col my-8 md:my-0 gap-y-6 xl:gap-y-8 xl:text-lg">
                 <div className="flex items-center gap-x-8 ">
                   <MailIcon size={18} className="text-primary" />
                   <a
