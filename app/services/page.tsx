@@ -5,12 +5,20 @@ import { AlarmClockCheck, BadgePoundSterling, SmilePlus } from "lucide-react";
 import Image from "next/image";
 import React, { useEffect } from "react";
 import AllTheCustomers from "@/components/AllTheCustomers";
-import { JobCatData } from "@/components/components-data/JobCat-data";
+import { JobCatData } from "@/components/components-data/jobCat-data"
 import ImageGallery from "@/components/ImageGallery";
 
 let ScrollReveal: any;
 if (typeof window !== "undefined") {
   ScrollReveal = require("scrollreveal").default;
+}
+
+interface JobData { 
+  title: string;
+  img: string;
+  description: string;
+  id: number;
+  jobData: JobData;
 }
 
 export default function Page() {
@@ -63,7 +71,7 @@ export default function Page() {
       </div>
 
       <ImageGallery />
-      
+
       <div className="my-16">
         <AllTheCustomers />
         <h2 className="text-center xl:text-left mt-5 mb-10">Why Hire Me?</h2>
@@ -96,14 +104,14 @@ export default function Page() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-16">
         {JobCatData.map((jobData, id) => (
           <div className="mx-auto" key={id}>
-            <div className="max-w-[300px]">
+            <div className="max-w-[400px] mx-4">
               <h4 className="my-4">{jobData.title}</h4>
               <Image
                 src={jobData.img}
                 width={500}
                 height={500}
                 alt="tools"
-                className="w-[280px] h-[320px] my-8 object-cover border rounded-md shadow-lg dark:shadow-gray-500"
+                className="w-full h-[320px] my-8 object-cover border rounded-md shadow-lg dark:shadow-gray-500"
               />
               <section className="subtitle">{jobData.description}</section>
             </div>
