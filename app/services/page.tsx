@@ -6,6 +6,7 @@ import Image from "next/image";
 import React, { useEffect } from "react";
 import AllTheCustomers from "@/components/AllTheCustomers";
 import { JobCatData } from "@/components/components-data/JobCat-data";
+import ImageGallery from "@/components/ImageGallery";
 
 let ScrollReveal: any;
 if (typeof window !== "undefined") {
@@ -61,7 +62,7 @@ export default function Page() {
           professional, reliable service every time.
         </section>
       </div>
-
+<ImageGallery />
       <div className="my-16">
         <AllTheCustomers />
         <h2 className="text-center xl:text-left mt-5 mb-10">Why Hire Me?</h2>
