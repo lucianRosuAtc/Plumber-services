@@ -15,7 +15,7 @@ export default function ImageGallery() {
     <div className="">
 <h2 className="mx-auto text-center my-12 md:my-16 text-gray-800 dark:text-primary border-b border-primary w-[270px] xl:w-[350px]">Gallery</h2>
       <div className="grid">
-      <div className="order-last grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+      <div className="order-last grid grid-cols-2 sm:grid-cols-3 gap-4">
         {GalleryData.map((img: any, id: any) => (
           <div className="overflow-hidden rounded-lg bg-gray-100" key={id}>
             <Image
@@ -36,7 +36,7 @@ export default function ImageGallery() {
           width={500}
           height={500}
           alt="product"
-          className="h-52 sm:h-[450px] object-cover object-center cursor-pointer shadow-xl"
+          className="h-60 sm:h-[450px] md:w-[700px] object-cover object-center cursor-pointer shadow-xl"
           />}
         <span className="absolute left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">Some of my fine work</span>
           </div>
