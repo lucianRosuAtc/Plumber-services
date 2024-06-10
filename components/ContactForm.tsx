@@ -70,7 +70,7 @@ export default function ContactForm() {
   return (  
       <form
         onSubmit={sendEmail}
-        className="flex flex-col mt-10 xl:mt-12 gap-y-4"
+        className="flex flex-col gap-y-5"
       >
         <div className="relative flex items-center">
           <Input
@@ -123,7 +123,7 @@ export default function ContactForm() {
         <Button
           disabled={formState.isLoading}
           type="submit"
-          className="flex items-center justify-center gap-x-2 max-w-md"
+          className="flex items-center justify-center gap-x-2 sm:max-w-[220px]"
         >
           {formState.isLoading ? "Sending..." : "Send Message"}
           <ArrowRightIcon size={20} />
