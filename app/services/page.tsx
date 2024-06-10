@@ -5,7 +5,7 @@ import { AlarmClockCheck, BadgePoundSterling, SmilePlus } from "lucide-react";
 import Image from "next/image";
 import React, { useEffect } from "react";
 import AllTheCustomers from "@/components/AllTheCustomers";
-import { JobCatData } from "@/components/components-data/jobCat-data";
+import { JobCatData } from "@/components/components-data/myJobCat-data";
 
 import ImageGallery from "@/components/ImageGallery";
 
