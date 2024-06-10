@@ -19,7 +19,6 @@ interface JobData {
   img: string;
   description: string;
   id: number;
-  jobData: JobData;
 }
 
 export default function Page() {
@@ -103,7 +102,7 @@ export default function Page() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-16">
-        {JobCatData.map((jobData:any, id:number) => (
+        {JobCatData.map((jobData:JobData, id) => (
           <div className="mx-auto" key={id}>
             <div className="max-w-[400px] mx-4">
               <h4 className="my-4">{jobData.title}</h4>
