@@ -42,7 +42,7 @@ export default function Page() {
 
         <div className="flex flex-col md:flex-row items-center justify-center mb-16 md:mb-24">
           <div className="md:mr-12 my-9">
-            <h2 className="h-28 text-gray-800 dark:text-primary">
+            <h2 className="h-28 light:text-gray-800 mb-12">
               <TypedComponent />
             </h2>
             <section className="subtitle">
