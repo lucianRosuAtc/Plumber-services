@@ -12,7 +12,7 @@ export default function Images() {
   };
 
   return (
-    <div className="w-full h-[550px] flex items-center justify-center bg-primary/45 dark:bg-accent my-6 md:my-12">
+    <div className="w-full h-[550px] flex items-center justify-center bg-primary/20 dark:bg-accent my-6 md:my-12">
       <div className="h-[500px] md:h-96 flex md:flex-row flex-col flex-nowrap justify-start">
         {imageSliderData.map((data, index) => (
           <React.Fragment key={data.id}>
