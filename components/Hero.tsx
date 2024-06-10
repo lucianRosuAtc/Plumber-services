@@ -18,8 +18,7 @@ export default function Hero() {
         width={240}
         height={64}
         alt="Logo"
-        className="object-cover object-center absolute flex items-center justify-center rounded-full w-80 h-80 overflow-hidden cursor-pointer p-2 transition-all top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 "
- 
+        className="object-cover object-center absolute flex items-center justify-center rounded-full w-80 h-80 overflow-hidden cursor-pointer p-2 transition-all top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
         priority
       />
 
