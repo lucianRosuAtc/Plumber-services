@@ -12,6 +12,8 @@ export default function ImageGallery() {
   }
 
   return (
+    <div className="">
+<h2 className="mx-auto text-center my-12 md:my-16 text-gray-800 dark:text-primary border-b border-primary w-[270px] xl:w-[350px]">Gallery</h2>
       <div className="grid">
       <div className="order-last grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
         {GalleryData.map((img: any, id: any) => (
@@ -21,10 +23,10 @@ export default function ImageGallery() {
               alt="product"
               width={200}
               height={200}
-              className="h-28 md:h-40 w-full object-cover object-center cursor-pointer"
+              className="h-28 md:h-40 w-full object-cover object-center cursor-pointer shadow-xl"
               onClick={() => handleSmallImageClick(img)}
               // change the image on click
-            />
+              />
           </div>
         ))}
       </div>
@@ -34,9 +36,10 @@ export default function ImageGallery() {
           width={500}
           height={500}
           alt="product"
-         className="h-52 sm:h-[450px] object-cover object-center cursor-pointer"
-        />}
+          className="h-52 sm:h-[450px] object-cover object-center cursor-pointer shadow-xl"
+          />}
         <span className="absolute left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">Some of my fine work</span>
+          </div>
       </div>
     </div>
   );
