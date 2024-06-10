@@ -11,12 +11,12 @@ export const GalleryData = [
   {
     img: "/images/gallery/niceBathroom.jpg",
   },
-  {
-    img: "/images/gallery/the pipes.jpg",
-  },
-  {
-    img: "/images/gallery/anotherBathRoom.jpg",
-  },
+  // {
+  //   img: "/images/gallery/the pipes.jpg",
+  // },
+  // {
+  //   img: "/images/gallery/anotherBathRoom.jpg",
+  // },
   {
     img: "/images/gallery/mySink.jpg",
   },

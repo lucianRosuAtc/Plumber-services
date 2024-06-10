@@ -6,7 +6,7 @@ const TypedComponent = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["I'm a plumber with over a decade of experience.", "Over 100 happy customers."],
+      strings: ["I'm a plumber with over a decade of experience.", "I'm a plumber with over 100 happy customers."],
       typeSpeed: 100,
       backSpeed: 100,
       loop: false,
