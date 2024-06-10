@@ -21,20 +21,20 @@ export default function ImageGallery() {
               alt="product"
               width={200}
               height={200}
-              className="h-40 w-full object-cover object-center cursor-pointer"
+              className="h-28 md:h-40 w-full object-cover object-center cursor-pointer"
               onClick={() => handleSmallImageClick(img)}
               // change the image on click
             />
           </div>
         ))}
       </div>
-      <div className="relative overflow-hidden rounded-lg bg-gray-100 lg:col-span-3 mb-4">
+      <div className="relative overflow-hidden rounded-lg bg-gray-100 lg:col-span-3 mb-4 mx-auto">
         {bigImage && <Image
           src={bigImage}
           width={500}
           height={500}
           alt="product"
-          className="h-full w-full object-cover object-center"
+         className="h-40 md:h-[450px]  object-cover object-center cursor-pointer"
         />}
         <span className="absolute left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">sale</span>
       </div>
