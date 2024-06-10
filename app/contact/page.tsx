@@ -36,7 +36,7 @@ export default function Contact() {
           </div>
           <div className="flex items-center gap-x-8">
             <PhoneCall size={18} className="text-primary" />
-            <a href="tel:07505700000" className="hover:text-primary">
+            <a href="tel:07505xxxxxx" className="hover:text-primary">
               07505700000
             </a>
           </div>

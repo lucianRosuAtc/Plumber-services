@@ -40,7 +40,6 @@ export default function Page() {
             years, I have honed my skills and expanded my knowledge to provide
             top-notch solutions for a wide range of needs.
           </p>
-          
         </div>
 
         <Image
@@ -62,7 +61,9 @@ export default function Page() {
           professional, reliable service every time.
         </section>
       </div>
-<ImageGallery />
+
+      <ImageGallery />
+      
       <div className="my-16">
         <AllTheCustomers />
         <h2 className="text-center xl:text-left mt-5 mb-10">Why Hire Me?</h2>
