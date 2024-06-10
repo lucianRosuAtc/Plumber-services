@@ -34,7 +34,7 @@ export default function ImageGallery() {
           width={500}
           height={500}
           alt="product"
-         className="h-40 md:h-[450px]  object-cover object-center cursor-pointer"
+         className="h-40 sm:h-[450px] object-cover object-center cursor-pointer"
         />}
         <span className="absolute left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">sale</span>
       </div>
