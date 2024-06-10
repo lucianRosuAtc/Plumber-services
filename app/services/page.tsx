@@ -36,7 +36,7 @@ export default function Page() {
   return (
     <div className="mx-auto">
       <div className="px-8 max-w-7xl mx-auto">
-        <h1 className="mb-10 md:mb-20 text-center text-gray-800 dark:text-primary">
+        <h1 className="mb-10 md:mb-20 text-center light:text-gray-800 dark:text-primary">
           My Services
         </h1>
 
