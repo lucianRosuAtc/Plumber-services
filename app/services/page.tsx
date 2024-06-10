@@ -5,7 +5,8 @@ import { AlarmClockCheck, BadgePoundSterling, SmilePlus } from "lucide-react";
 import Image from "next/image";
 import React, { useEffect } from "react";
 import AllTheCustomers from "@/components/AllTheCustomers";
-import { JobCatData } from "@/components/components-data/jobCat-data"
+import { JobCatData } from "@/components/components-data/myJobCat-data";
+
 import ImageGallery from "@/components/ImageGallery";
 
 let ScrollReveal: any;
@@ -102,7 +103,7 @@ export default function Page() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-16">
-        {JobCatData.map((jobData, id) => (
+        {JobCatData.map((jobData:any, id:number) => (
           <div className="mx-auto" key={id}>
             <div className="max-w-[400px] mx-4">
               <h4 className="my-4">{jobData.title}</h4>

@@ -38,7 +38,7 @@ const ScrollToTopButton = () => {
       } hover:opacity-100`}
       onClick={scrollToTop}
     >
-      <div className="border-2 border-white  p-1 rounded-full">
+      <div className="border-2 border-white p-1 rounded-full">
         <ChevronUp className="h-8 w-8" aria-hidden="true" />
       </div>
     </button>
