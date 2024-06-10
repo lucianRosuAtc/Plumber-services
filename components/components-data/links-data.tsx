@@ -1,7 +1,8 @@
-import { RiLinkedinFill, RiGithubFill } from "react-icons/ri";
+import { RiLinkedinFill } from "react-icons/ri";
 import { TfiEmail } from "react-icons/tfi";
 import { FaXTwitter } from "react-icons/fa6";
 import React from "react";
+import { PhoneCall } from "lucide-react";
 
 // MARK: NAVIGATION LINKS
 export const navigationlinks = [
@@ -17,8 +18,8 @@ export const social = [
         name: <RiLinkedinFill />,
     },
     {
-        url: "https://github.com/lucianRosuAtc",
-        name: <RiGithubFill />,
+        url: "tel:07505",
+        name: <PhoneCall size={31} />,
     },
     {
         url: "mailto:lucian.rosu.atc@gmail.com",
