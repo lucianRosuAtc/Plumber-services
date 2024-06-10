@@ -7,14 +7,12 @@ export default function Contact() {
     <div className="container mx-auto">
       <div className="grid pt-12 mb-6 xl:mb-14">
         <div className="flex flex-col justify-center">
-          <div className="flex items-center gap-x-4 text-primary text-lg mb-4">
+          <div className="flex items-center gap-x-4 text-primary text-lg lg:text-2xl mb-4">
             Get in Touch with Me
           </div>
-          <h1 className="my-4">Let&apos;s Build Together</h1>
+          <h1 className="my-4">Let&apos;s Work Together</h1>
           <p className="max-w-[600px] xl:max-w-[900px]">
-            Embracing collaboration to leverage emerging technologies and drive
-            innovation. Committed to delivering high-quality results through
-            teamwork. Passionate about learning, growing, and building together.
+          Dedicated to providing reliable and efficient service to meet all your plumbing needs. Committed to high-quality workmanship and customer satisfaction. Always ready to diagnose and solve your problems, ensuring your home or business runs smoothly.
           </p>
         </div>
       </div>

@@ -38,7 +38,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="flex flex-col bg-orange-100 dark:bg-accent w-full items-center justify-center p-8">
+      <section className="flex flex-col bg-primary/10 dark:bg-accent w-full items-center justify-center p-8">
         <div className="max-w-7xl my-2 md:my-16">
           <h2 className="text-center mb-4 md:mb-12 text-gray-800 dark:text-primary border-b border-primary w-[270px] xl:w-[450px] mx-auto">
             Why Choose Me?
@@ -126,7 +126,7 @@ export default function About() {
         </Link>
       </div>
 
-      <section className=" flex flex-col bg-orange-100 dark:bg-accent w-full items-center justify-center my-14 text-sm md:text-base px-4">
+      <section className=" flex flex-col bg-primary/10 dark:bg-accent w-full items-center justify-center my-14 text-sm md:text-base px-4">
         <div className=" max-w-7xl my-14 md:my-20">
           <h2 className="text-center mb-4 md:mb-12 text-gray-800 dark:text-primary border-b border-primary max-w-[650px] mx-auto">
             Customer Satisfaction:
