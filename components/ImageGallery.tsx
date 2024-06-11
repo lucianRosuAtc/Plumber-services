@@ -38,7 +38,7 @@ export default function ImageGallery() {
           alt="product"
           className="h-60 sm:h-[450px] md:w-[700px] object-cover object-center cursor-pointer shadow-xl"
           />}
-        <span className="absolute left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">Some of my fine work</span>
+        <span className="absolute left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">Some of my finest work</span>
           </div>
       </div>
     </div>
