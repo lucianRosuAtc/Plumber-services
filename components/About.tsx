@@ -122,7 +122,7 @@ export default function About() {
       <div className="flex flex-col items-center justify-center">
         <ArrowBigDown className="animate-bounce transition-all text-primary" />
         <Link href="/services">
-          <Button className="gap-2 px-9">Oure Services</Button>
+          <Button className="gap-2 px-9">Our Services</Button>
         </Link>
       </div>
 
