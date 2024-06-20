@@ -34,6 +34,7 @@ export default function About() {
             height="500"
             alt="Plumber fixing a pipe"
             className="w-[500px] h-[500px] object-cover rounded-lg shadow-xl border border-gray-300 dark:border-primary"
+            priority={true}
           />
         </div>
       </section>

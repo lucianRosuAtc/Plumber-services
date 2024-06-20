@@ -25,6 +25,7 @@ export default function ImageGallery() {
               height={200}
               className="h-28 md:h-40 w-full object-cover object-center cursor-pointer shadow-xl"
               onClick={() => handleSmallImageClick(img)}
+              priority={true}
               // change the image on click
               />
           </div>
@@ -37,6 +38,7 @@ export default function ImageGallery() {
           height={500}
           alt="product"
           className="h-60 sm:h-[450px] md:w-[700px] object-cover object-center cursor-pointer shadow-xl"
+          priority={true}
           />}
         <span className="absolute left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">Some of my finest work</span>
           </div>
