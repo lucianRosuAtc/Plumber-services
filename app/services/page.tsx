@@ -64,6 +64,7 @@ export default function Page() {
             height={500}
             alt="bathroom"
             className="w-[280px] lg:w-[500px] h-[320px] lg:h-[500px] object-cover rounded-lg shadow-xl border border-gray-300 dark:border-primary"
+            priority={true}
           />
         </div>
         
@@ -117,6 +118,7 @@ export default function Page() {
                   height={500}
                   alt="tools"
                   className="w-full h-[320px] my-8 object-cover border rounded-md shadow-lg dark:shadow-gray-500"
+                  priority={true}
                 />
                 <div className="subtitle">{jobData.description}</div>
               </div>

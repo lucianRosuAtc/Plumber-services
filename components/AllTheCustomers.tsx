@@ -21,6 +21,7 @@ export default function ImageSlider() {
                 width={100}
                 height={100}
                 className="rounded-full w-16 md:w-20 h-16 md:h-20 border-2 border-white dark:border-primary shadow-xl"
+                priority={true}
               />
             </div>
           ))}

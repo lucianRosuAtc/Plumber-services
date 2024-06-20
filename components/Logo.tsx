@@ -11,7 +11,7 @@ export default function Logo() {
         height={64}
         alt="Logo"
         className="object-cover object-center rounded-full w-20 h-20 overflow-hidden cursor-pointer p-2  transition-all shadow-lg dark:bg-secondary/80 dark:border dark:border-primary"
-        priority
+        priority={true}
       />
     </Link>
   );

@@ -73,7 +73,7 @@ export default function RecommendationsCarousel() {
                       width={70}
                       height={70}
                       className="shadow-lg p-1 dark:shadow-lg dark:shadow-secondary object-cover object-center rounded-full mx-4 my-5"
-                      priority
+                      priority={true}
                     />
                     <div className="flex flex-col">
                       <p className="text-base md:text-xl xl:text-2xl xl:leading-normal font-semibold; px-4 pt-5">
