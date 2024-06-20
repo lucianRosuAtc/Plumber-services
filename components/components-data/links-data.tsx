@@ -22,7 +22,7 @@ export const social = [
     name: <FaXTwitter />,
   },
   {
-    url: "mailto:lucian.rosu.atc@gmail.com",
+    url: "mailto:vigilent.developer@gmail.com",
     name: <TfiEmail />,
   },
   {
