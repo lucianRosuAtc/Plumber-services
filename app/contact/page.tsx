@@ -29,10 +29,10 @@ export default function Contact() {
                 <div className="flex items-center gap-x-8 ">
                   <MailIcon size={18} className="text-primary" />
                   <a
-                    href="mailto:email@gmail.com"
+                    href="mailto:vigilent.developer@gmail.com"
                     className="hover:text-primary"
                   >
-                    email@gmail.com
+                    vigilent.developer@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center gap-x-8">
