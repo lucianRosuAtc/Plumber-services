@@ -49,9 +49,9 @@ export default function Footer() {
       </div>
 
       <div className="flex justify-center px-4 text-secondary/80 dark:text-white py-8 lg:pt-14">
-        <p className="text-sm text-center font-medium">
-          <span className="pr-1">&copy;</span>{" "}
-          {`${year} Lucian Dev, All rights reserved.`}{" "}
+      <p className="text-sm text-center font-medium">
+          <span className="pr-1">&copy;</span>
+          {`${year}`} <Link href="https://www.lucianrosu.com/" target="_blank" className="hover:text-primary">Lucian Dev</Link>, All rights reserved.
         </p>
       </div>
     </div>
