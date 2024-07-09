@@ -12,8 +12,8 @@ export default function Footer() {
   const pathname = usePathname();
   return (
     <div className="bg-[#eheheh] dark:bg-secondary/80 pt-8 border-t-2 border-primary ">
-      <div className="grid lg:grid-cols-3 justify-center items-center gap-y-8">
-        <div className="mx-auto">
+      <div className="grid lg:grid-cols-3 justify-center items-center gap-y-8 container">
+        <div className="mx-auto lg:mx-0">
           <Logo />
         </div>
 
@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
 
         {/* MARK: Social Media */}
-        <div className="flex gap-x-8 items-center justify-center">
+        <div className="flex gap-x-8 items-center justify-center lg:justify-end">
           {social.map((item, index) => (
             <a
               href={item.url}
