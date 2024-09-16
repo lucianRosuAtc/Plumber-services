@@ -76,7 +76,7 @@ export default function RecommendationsCarousel() {
                       priority={true}
                     />
                     <div className="flex flex-col">
-                      <p className="text-base md:text-xl xl:text-2xl xl:leading-normal font-semibold; px-4 pt-5">
+                      <p className="text-base md:text-xl xl:text-2xl xl:leading-normal font-semibold px-4 pt-5">
                         {recommendation.name}
                       </p>
                       <p className="px-4 pb-5 text-xs">
